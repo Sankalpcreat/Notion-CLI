@@ -1,0 +1,19 @@
+[package]
+name = "notion-cli"
+version = "0.1.0"
+edition = "2021"
+description = "Notion API CLI"
+license = "MIT"
+
+[[bin]]
+name = "notion"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+reqwest = { version = "0.12", features = ["json", "blocking", "multipart"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+dirs = "5.0"
+anyhow = "1.0"
+dotenvy = "0.15"
