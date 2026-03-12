@@ -1,5 +1,5 @@
 [package]
-name = "notion-cli"
+name = "cli-notion"
 version = "0.1.0"
 edition = "2021"
 description = "Notion API CLI"

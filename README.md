@@ -42,6 +42,12 @@ sudo cp target/release/notion /usr/local/bin/
 ### Cargo install
 
 ```bash
+cargo install cli-notion
+```
+
+Or install directly from GitHub:
+
+```bash
 cargo install --git https://github.com/Sankalpcreat/Notion-CLI.git --bin notion
 ```
 
