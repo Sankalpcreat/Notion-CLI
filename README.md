@@ -2,7 +2,7 @@
 
 <p align="center"><img src="assets/notion-cli-banner.png" width="520" alt="Notion CLI" /></p>
 
-> **Disclaimer:** This is not an official Notion project. Independently built as a personal side project using the public [Notion API](https://developers.notion.com/), and open sourced for the community. Not affiliated with or endorsed by Notion Labs, Inc.
+> **Disclaimer:** This is not an official Notion project. Independently built using the public [Notion API](https://developers.notion.com/) and open-sourced for practical terminal and automation workflows. Not affiliated with or endorsed by Notion Labs, Inc.
 
 Notion API CLI in Rust. 37 commands for pages, blocks, data sources, comments, users, search, file uploads, OAuth, and token operations. Use Notion from the terminal, scripts, or AI agents without opening the Notion app.
 
