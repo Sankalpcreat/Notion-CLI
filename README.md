@@ -27,8 +27,8 @@ Notion API CLI in Rust. 37 commands for pages, blocks, data sources, comments, u
 ### From source
 
 ```bash
-git clone <your-repo-url>
-cd notion-cli
+git clone https://github.com/Sankalpcreat/Notion-CLI.git
+cd Notion-CLI
 cargo build --release
 ```
 
@@ -42,6 +42,7 @@ Binary path:
 
 ```bash
 sudo cp target/release/notion /usr/local/bin/notion
+notion --help
 ```
 
 ---
@@ -65,11 +66,11 @@ You can also keep local dev credentials in `.env` (already supported by `dotenvy
 ## Repository Structure
 
 ```text
-notion-cli/
+Notion-CLI/
+├── .env.example
 ├── README.md
+├── AGENTS.md
 ├── Cargo.toml
-├── COMMAND_STATUS.md
-├── TEST_RESULTS.md
 ├── assets/
 │   └── notion-cli-banner.png
 └── src/
