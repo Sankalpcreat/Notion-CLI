@@ -24,26 +24,28 @@ Notion API CLI in Rust. 37 commands for pages, blocks, data sources, comments, u
 
 ## Installation
 
+### One-liner (requires Rust)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Sankalpcreat/Notion-CLI/main/install.sh | sh
+```
+
 ### From source
 
 ```bash
 git clone https://github.com/Sankalpcreat/Notion-CLI.git
 cd Notion-CLI
 cargo build --release
+sudo cp target/release/notion /usr/local/bin/
 ```
 
-Binary path:
+### Cargo install
 
 ```bash
-./target/release/notion
+cargo install --git https://github.com/Sankalpcreat/Notion-CLI.git --bin notion
 ```
 
-### Optional global install
-
-```bash
-sudo cp target/release/notion /usr/local/bin/notion
-notion --help
-```
+**Requirements:** Rust 1.85+ ([rustup.rs](https://rustup.rs))
 
 ---
 
@@ -71,6 +73,7 @@ Notion-CLI/
 ├── README.md
 ├── AGENTS.md
 ├── Cargo.toml
+├── install.sh
 ├── assets/
 │   └── notion-cli-banner.png
 └── src/
